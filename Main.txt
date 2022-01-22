@@ -1,0 +1,34 @@
+package com.company;
+
+public class Main {
+
+    public static void main(String[] args) {
+	Player1 player =new Player1("Player1","AKM",100);
+
+
+
+       System.out.println(player.getName());
+       System.out.println(player.getHealth());
+       System.out.println(player.getWeapon()); //it give as tp player1 name weapon and healh.
+
+
+       player.damageByGun1();
+       player.damageByGun1();
+       player.damageByGun2();
+       player.heal();            // use gun2 also
+
+
+
+
+//      Player2 betterplayer =new Player2("Satya","machine gun",80,false);//true=> armour is On
+//      betterplayer.damageByGun2();                                                                //false=> armour is Off
+//      betterplayer.damageByGun2();
+//      betterplayer.heal();
+
+
+
+
+
+
+    }
+}
